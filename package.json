@@ -1,0 +1,16 @@
+{
+  "name": "rails-school-socket-server",
+  "version": "0.0.1",
+  "description": "Server to help send push notifications",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "0.12.2"
+  },
+  "dependencies": {
+    "express": "^4.10.2",
+    "socket.io": "^1.3.5"
+  }
+}
